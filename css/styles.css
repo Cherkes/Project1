@@ -1,42 +1,58 @@
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: -6;
-    top: 20px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  margin-top: 9em;
+  margin-left: 2.5em;
+  
 }
-.main {
-	margin-left:60px;
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 139px;
 }
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+
 
 .name {
 		font-size: 55px;
 		text-align: right;
-		margin-top: 0em;
-		line-height: 0px;
+		margin-bottom: 0em;
+		margin-top: -0.75em;
 		font-family: 'Spectral SC', serif;
 		font-weight: lighter;
+		
 
 		
 	}
-		.posit {
-		text-align: right;
-		line-height: 0;
-		padding-top: 0em;
-		margin-top: 0em;
+.posit {
+		margin-top: -0.25em;
 		font-size: 25px;
 		text-transform: uppercase;
 		font-weight: lighter;
+		text-align: right;
 		
 
 }
 
 .logo {
-	max-width: 80px;
-		max-height: 80px;
-		margin-top: 0px;
-		line-height: 0px;
+	width: 80px;
+	height: 80px;
+	margin-top: -0.75em;
+	margin-bottom: -3em;
+	line-height: 0px;
+}
+
+.container {
+	margin-top: -1em;
+}
+
+.projects {
+	max-height: 200px;
+	min-height: 200px;
 }
